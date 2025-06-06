@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import Odometer from "./Odometer";
-import useStopWatchStore from "../store/stopwatchStore";
-import useSessionStore from "../store/sessionStore";
+import useStopWatchStore from "../store/stopwatchStore.js";
+import useSessionStore from "../store/sessionStore.js";
 
 const formatTime = (timestamp) => {
   const totalSeconds = Math.floor(timestamp / 1000);
